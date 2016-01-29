@@ -10,7 +10,7 @@ RUN wget https://nodejs.org/dist/v0.10.40/node-v0.10.40-linux-x64.tar.gz && \
     sudo -u gitlab-runner echo 'PATH="/usr/local/node/bin:${PATH}"' >> /home/gitlab-runner/.bashrc
 
 # install meteor
-RUN sudo -u gitlab-runner curl https://install.meteor.com/ | sudo -u gitlab-runner sh
+RUN sudo -u gitlab-runner curl https://install.meteor.com/ | sh
 
 # install npm and lftp
 RUN apt-get update && \
