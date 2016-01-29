@@ -14,6 +14,7 @@ RUN wget https://nodejs.org/dist/v0.10.40/node-v0.10.40-linux-x64.tar.gz && \
     apt-get update && \
     apt-get install -y npm lftp && \
     ln -s /usr/bin/nodejs /usr/local/bin/node && \
+    touch /home/gitlab-runner/.lftprc && \
     echo "set ssl:verify-certificate false" >> /home/gitlab-runner/.lftprc
 
 
