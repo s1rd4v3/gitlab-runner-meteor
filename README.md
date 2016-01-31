@@ -35,7 +35,7 @@ publish_live:
 
 ### Fix lftp certificate validation error
 You need to perform the following actions as gitlab-runner user (`sudo su gitlab-runner`)
-- create ~/.lftprc file with `ssl:verify-certificate false` if certificate validation fails
+- create ~/.lftprc file with `set ssl:verify-certificate false` if certificate validation fails
 
 ### Usefull links
 * [gitlab-runner config](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/configuration/advanced-configuration.md)
