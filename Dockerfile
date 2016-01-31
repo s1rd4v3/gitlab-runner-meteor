@@ -11,5 +11,4 @@ RUN apt-get update && \
     sudo cp -rp node-v0.10.40-linux-x64 /usr/local/ && \
     sudo ln -s /usr/local/node-v0.10.40-linux-x64 /usr/local/node && \
     curl https://install.meteor.com/ | sh && \
-    echo 'PATH="/usr/local/node/bin:${PATH}"' >> /etc/bash.bashrc && \
-    echo 'set ssl:verify-certificate false' >> /etc/lftp.conf
+    echo 'PATH="/usr/local/node/bin:${PATH}"' >> /etc/bash.bashrc
