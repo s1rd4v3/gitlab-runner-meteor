@@ -22,7 +22,7 @@ publish_live:
     - pushd programs/server/
     - npm install
     - popd
-    - lftp -u $FTP_USER,$FTP_PASS -e 'mirror --only-newer --reverse --verbose ./ ./' $FTP_HOST
+    - lftp -u $FTP_USER,$FTP_PASS -e 'mirror --only-newer --reverse --verbose --no-symlinks ./ ./' $FTP_HOST
   tags:
     - meteor
     - npm
