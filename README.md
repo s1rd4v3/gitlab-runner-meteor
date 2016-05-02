@@ -2,7 +2,7 @@
 
 This is a custom build of the original gitlab-runner Docker image from https://gitlab.com/gitlab-org/gitlab-ci-multi-runner. I've simply added some meteor tools i need to deploy my stuff.
 
-Tested with Meteor 1.2.1
+Tested with Meteor 1.3.1
 
 Toolchain:
 * [NodeJS](https://nodejs.org)
