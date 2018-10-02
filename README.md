@@ -8,6 +8,7 @@ Toolchain:
 * [NodeJS](https://nodejs.org)
 * [NPM](https://www.npmjs.com/)
 * [Meteor](https://www.meteor.com)
+* [lftp](http://lftp.yar.ru/)
 
 ### .gitlab-ci.yml example
 
@@ -21,7 +22,7 @@ publish_live:
     - pushd programs/server/
     - npm install
     - popd
-    - rsync ...
+    - lftp / rsync ...
   tags:
     - meteor
     - npm
