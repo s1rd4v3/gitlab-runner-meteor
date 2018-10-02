@@ -1,6 +1,6 @@
 ## gitlab-runner-meteor
 
-This is a custom build of the original gitlab-runner Docker image from https://gitlab.com/gitlab-org/gitlab-ci-multi-runner. I've simply added some meteor tools i need to deploy my stuff.
+This is a custom build of the original gitlab-runner Docker image from https://gitlab.com/gitlab-org/gitlab-runner. I've simply added some meteor tools i need to deploy my stuff.
 
 Tested with Meteor 1.4.2
 
